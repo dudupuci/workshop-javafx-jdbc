@@ -30,7 +30,6 @@ public class MainViewController implements Initializable {
 	@FXML
 	private void onMenuItemSellerAction() {
 		System.out.println("onMenuSellerAction");
-
 	}
 
 	@FXML
@@ -41,7 +40,6 @@ public class MainViewController implements Initializable {
 	@FXML
 	private void onMenuItemAboutAction() {
 		loadView("/gui/About.fxml");
-
 	}
 
 	@Override
